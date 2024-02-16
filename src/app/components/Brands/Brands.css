@@ -1,0 +1,31 @@
+.brands-border {
+  width: 100%;
+  padding: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.brands-wrapper {
+  display: flex;
+  gap: 30px;
+  flex-shrink: 0;
+  align-items: center;
+  animation: scroll 20s linear infinite;
+}
+
+.brands-image {
+  width: 100px;
+}
+
+.brands-wrapper:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  100% {
+    transform: translateX(calc(-100% / 2));
+  }
+}

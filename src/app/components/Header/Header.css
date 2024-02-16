@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo-image {
+  width: 150px;
+}
+
+.icons-Size {
+  font-size: 25px;
+}
