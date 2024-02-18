@@ -12,7 +12,7 @@ export default function Home() {
     <main>
       <Header handleSearch={setIsSearch} />
       <PreviewMenu />
-      <Brands />
+      
       {isSeach && <SearchBar />}
     </main>
   );

@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./SearchBar.css";
 import { FiSearch } from "react-icons/fi";
 import { motion } from "framer-motion";
 
 function SearchBar() {
+  const backRef = useRef(null);
+
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.5 }}
